@@ -1,0 +1,42 @@
+.container {
+    width: 600px;
+    
+    margin-left: calc(50%-300px);
+    margin-top: 100px;
+    background-color: blue;
+}
+        .left {
+            background-color: aqua;
+            
+            width: 40%;
+            float: left;
+        }
+            .left >h1 {
+                
+            }
+            .left > .links {
+                
+            }
+            .left > .links > a {
+                
+            }
+            .left > .links > span {
+                
+            }
+        .right {
+            float: left;
+            width: 60%;
+            
+            padding: 60px;
+            background-color: yellow;
+                    }
+                    .right > .close {
+                        
+                    }
+
+            .form{
+                
+            }
+            .form > form-row {
+
+            }
