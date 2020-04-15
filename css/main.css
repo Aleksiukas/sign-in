@@ -1,42 +1,100 @@
-.container {
-    width: 600px;
-    
-    margin-left: calc(50%-300px);
-    margin-top: 100px;
-    background-color: blue;
+body{
+    background-color: aqua;
 }
+
+    .container {
+        display: inline-block;
+        width: 800px;
+        margin-top: 80px;
+        margin-left: calc(50% - 400px);
+    }   
         .left {
-            background-color: aqua;
-            
-            width: 40%;
-            float: left;
+            padding: 50px;
+             display: inline-block;
+             float: left;
+             width: 40%;
+             background-color: blue;
         }
-            .left >h1 {
-                
+            h1 {
+                text-transform: capitalize;
+                color: #fff;
+                font-weight: normal;
             }
-            .left > .links {
-                
-            }
-            .left > .links > a {
-                
-            }
-            .left > .links > span {
-                
+          
+            .links {
+                display: inline-block;
+                }
+               .links > .a {
+                    display: inline-block;
+                }
+                .links > .span {
+                    display: inline-block;
             }
         .right {
-            float: left;
-            width: 60%;
-            
-            padding: 60px;
-            background-color: yellow;
+            padding: 80px;
+             display: inline-block;
+             background-color: #fff;
+             width: 60%;
+             float: left;
+        }
+            .x {
+                display: inline-block;
+            }
+            form {
+                display: inline-block;
+                width: 100%;
+               
+                            }
+                .form-row {
+                    display: inline-block;
+                    width: 100%;
+                    margin-bottom: 30px;
+                    border: none;
+                }
+                .form-row:last-of-type {
+                    margin-bottom: 0;
+                    margin-top: 30px;
+                    display: inline-block;
+                }
+                    label {
+                        display: inline-block;
+                        width: 100%;
+                        margin-bottom: 10px;
+                        text-transform: uppercase;
+                        color: #C1C1C1;
+                        font-size: 14px;
+                        line-height: 20px;
                     }
-                    .right > .close {
+                    input {
+                        display: inline-block;
+                        width: 100%;
+                        border: none;
+                        border-bottom: 2px solid #C1C1C1;
+                        color: #333;
+                        font-size: 18px;
+                        line-height: 30px;
+
+                    }
+                    .form-row > * {
+                        float: left;
+                        padding: 10px;
+                        font-size: 18px;
+                        line-height: 20px;
+                         display: inline-block;
+                    }
+                    .btn {
                         
+                       
+                        background-color: #36f;
+                        color: #fff;
+                        padding-right: 50px;
+                        padding-left: 50px;
+                        border-radius: 20px;
                     }
-
-            .form{
-                
-            }
-            .form > form-row {
-
-            }
+                    .form-row > span {
+                        margin-left: 30px;
+                        padding-right: 0;  
+                    }
+                    .form-row > a {
+                        padding-left: 0;
+                    }
